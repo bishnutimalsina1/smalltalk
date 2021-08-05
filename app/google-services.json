@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723491463047",
+    "project_id": "chatapp-c5015",
+    "storage_bucket": "chatapp-c5015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723491463047:android:dc4ed0474186dd2d6a3d22",
+        "android_client_info": {
+          "package_name": "com.example.smalltalk16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723491463047-lppgd4s6661ildse9bfi9qcff7o342ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt1eeeOpr0nLZIjTMDRJDqR3uA2LRnz4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723491463047-lppgd4s6661ildse9bfi9qcff7o342ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

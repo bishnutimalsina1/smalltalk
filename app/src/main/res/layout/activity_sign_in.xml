@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ic_g_logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Let's sign you in."
+            android:textColor="#15182B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Sign in with your data that you have entered during your registration." />
+
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/clickSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="right"
+            android:text="Click for SignUp"
+            android:textColor="#151414"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/signin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/montserrat"
+            android:insetBottom="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Sign In"
+            android:textSize="16sp"
+            app:backgroundTint="@color/dark_green_st"
+            app:cornerRadius="30dp"
+            app:elevation="0dp" />
+
+        <Button
+            android:id="@+id/google_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:capitalize="none"
+            android:drawableLeft="@drawable/ic_google_logo"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat"
+            android:insetBottom="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Sign in with Google"
+            android:textColor="#8E8888"
+            android:textSize="16sp"
+            app:backgroundTint="#FFFEFE"
+            app:cornerRadius="30dp"
+            app:elevation="0dp"
+            app:strokeColor="@color/dark_green_st"
+            app:strokeWidth="1sp" />
+
+        <TextView
+            android:id="@+id/signupphonelink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Sign Up with Phone" />
+    </LinearLayout>
+
+</LinearLayout>
